@@ -1,0 +1,41 @@
+body {
+  background-color: #1B1B1B;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #fff; /* Default text color */
+}
+
+header {
+  text-align: center;
+  padding: 16px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header .anime {
+  color: white;
+}
+
+header .hub {
+  background-color: #ffa31a;
+  color: #000;
+  border-radius: 2px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.video-info {
+  padding: 16px;
+  background-color: #1B1B1B; /* Semi-transparent background for better readability */
+  box-sizing: border-box; /* Includes padding in the total width/height */
+  margin-top: 16px; /* Adds space above the text content */
+}
